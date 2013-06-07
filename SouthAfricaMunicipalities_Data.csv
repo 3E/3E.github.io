@@ -1,0 +1,235 @@
+Code,Name,Type,Province,District,Seat,Area,Population,PopulationDensity,ElectricityAccess_Percentage,ElectricityAccess_Households,EnergyCharge_Industry,EnergyCharge_Commercial,Total_MWh,Manufacturing_Customers,Manufacturing_MWh,Commercial_Customers,Commercial_MWh,AveragePV_YieldStellenbosch
+BUF,Buffalo City,Metropolitan,Eastern Cape,,East London,2536,755200,297.8,80.9,180923,44.37,119.53,1202834,475,322985,6922,402098,1551
+CPT,City of Cape Town,Metropolitan,Western Cape,,Cape Town,2460,3740026,1520.3,94,1003400,50.39,103.4,9375178,,,29700,4975155,1756
+EC101,Camdeboo,Local,Eastern Cape,Cacadu,Graaff-Reinet,12422,50993,4.1,94.1,11678,31,118,53528,12,4347,576,20141,1918
+EC102,Blue Crane Route,Local,Eastern Cape,Cacadu,Somerset East,11068,36002,3.3,86.9,8498,59,110,49687,52,13697,417,10982,1698
+EC103,Ikwezi,Local,Eastern Cape,Cacadu,Jansenville,4563,10537,2.3,88.5,2582,112.4,112.4,,,,,,1758
+EC104,Makana,Local,Eastern Cape,Cacadu,Grahamstown,4376,80390,18.4,89.5,19144,44,106.5,85487,,,650,49316,1660
+EC105,Ndlambe,Local,Eastern Cape,Cacadu,Port Alfred,1841,61176,33.2,86.3,16678,55.44,102.6,37934,,,412,12113,1550
+EC106,Sundays River Valley,Local,Eastern Cape,Cacadu,Kirkwood,5994,54504,9.1,79.8,11766,63,120,,,,,,1585
+EC107,Baviaans,Local,Eastern Cape,Cacadu,Willowmore,11668,17761,1.5,89.2,4110,72,83,6013,,,,,1831
+EC108,Kouga,Local,Eastern Cape,Cacadu,Jeffreys Bay,2670,98558,36.9,87.1,25598,35.7,86.2,104601,,,863,46981,1586
+EC109,Kou-Kamma,Local,Eastern Cape,Cacadu,Kareedouw,3593,40663,11.3,86.9,9611,115.4,115.4,,,,,,1739
+EC121,Mbhashe,Local,Eastern Cape,Amathole,Dutywa,3169,254909,80.4,49.7,29890,,,,,,,,1611
+EC122,Mnquma,Local,Eastern Cape,Amathole,Gcuwa,3270,252390,77.2,61.4,42807,,,,,,,,1637
+EC123,Great Kei,Local,Eastern Cape,Amathole,Komga,1736,38991,22.5,80.2,8268,61,114,,,,,,1506
+EC124,Amahlathi,Local,Eastern Cape,Amathole,Stutterheim,4820,122778,25.5,82.4,28162,60.8,110.2,14143,22,7691,124,2448,1677
+EC126,Ngqushwa,Local,Eastern Cape,Amathole,Peddie,2241,72190,32.2,91.4,19551,,,,,,,,1580
+EC127,Nkonkobe,Local,Eastern Cape,Amathole,Fort Beaufort,3626,127115,35.1,88.4,31266,86,98.9,15000,,,,,1766
+EC128,Nxuba,Local,Eastern Cape,Amathole,Adelaide,2732,24264,8.9,92.2,6189,92,107,12700,,,,,1820
+EC131,Inxuba Yethemba,Local,Eastern Cape,Chris Hani,Cradock,11663,65560,5.6,95.6,17665,75.37,122.9,53922,,,,,1884
+EC132,Tsolwana,Local,Eastern Cape,Chris Hani,Tarkastad,6087,33281,5.5,88,8360,39.57,111,5870,,,,,1897
+EC133,Inkwanca,Local,Eastern Cape,Chris Hani,Molteno,3584,21971,6.1,91.7,5715,40,117.3,4812,3,80,102,,1872
+EC134,Lukhanji,Local,Eastern Cape,Chris Hani,Queenstown,3813,190723,50,90.9,46550,60.39,105,132712,228,46114,472,29595,1802
+EC135,Intsika Yethu,Local,Eastern Cape,Chris Hani,Cofimvaba,2711,145372,53.6,64.3,26009,,,,,,,,1668
+EC136,Emalahleni (EC),Local,Eastern Cape,Chris Hani,Lady Frere,3447,119460,34.7,73.4,88055,56,100,,,,,,1731
+EC137,Engcobo,Local,Eastern Cape,Chris Hani,Ngcobo,2484,155513,62.6,50.9,18943,,,,,,,,1679
+EC138,Sakhisizwe,Local,Eastern Cape,Chris Hani,Cala,2355,63582,27,79.1,12801,72.76,94,,,,,,1822
+EC141,Elundini,Local,Eastern Cape,Joe Gqabi,Maclear,5065,138141,27.3,46.3,17546,64.56,97.87,,,,,,1770
+EC142,Senqu,Local,Eastern Cape,Joe Gqabi,Lady Grey,7329,134150,18.3,81.1,30879,114.36,112.27,13834,,,273,13834,1863
+EC143,Maletswai,Local,Eastern Cape,Joe Gqabi,Aliwal North,4358,43800,10.1,84.2,10191,53,92.5,50000,11,,175,,1850
+EC144,Gariep,Local,Eastern Cape,Joe Gqabi,Burgersdorp,8911,33677,3.8,90.5,8845,69,89,19298,8,2115,132,2852,1879
+EC153,Ngquza Hill,Local,Eastern Cape,OR Tambo,Flagstaff,2477,278481,112.4,62.8,35356,,,,,,,,1568
+EC154,Port St Johns,Local,Eastern Cape,OR Tambo,Port St Johns,1291,156136,120.9,67.8,21529,,,,,,,,1529
+EC155,Nyandeni,Local,Eastern Cape,OR Tambo,Libode,2474,290390,117.4,71,43809,,,,,,,,1502
+EC156,Mhlontlo,Local,Eastern Cape,OR Tambo,Qumbu,2826,188226,66.6,72.6,31557,,,,,,,,1686
+EC157,King Sabata Dalindyebo,Local,Eastern Cape,OR Tambo,Mthatha,3027,451710,149.2,73.3,77067,,,174883,,,1909,12875,1567
+EC441,Matatiele,Local,Eastern Cape,Alfred Nzo,Matatiele,4352,203843,46.8,44.9,22248,117,112,28048,2,22,238,14713,1843
+EC442,Umzimvubu,Local,Eastern Cape,Alfred Nzo,Mount Frere,2577,191620,74.4,45.2,21221,,,,,,,,1766
+EC443,Mbizana,Local,Eastern Cape,Alfred Nzo,Bizana,2417,281905,116.6,60,29080,47,107,,,,114,,1666
+EC444,Ntabankulu,Local,Eastern Cape,Alfred Nzo,Ntabankulu,1385,123976,89.5,23.3,5687,,,,,,,,1672
+EKU,Ekurhuleni,Metropolitan,Gauteng,,Germiston,1924,3178470,1652,82.2,834506,95.28,86.21,9222203,4013,4529898,15246,565116,1802
+ETH,eThekwini,Metropolitan,KwaZulu-Natal,,Durban,2292,3442361,1501.9,89.9,859919,47.59,116.17,10585207,748,5056990,39659,2011014,1452
+FS161,Letsemeng,Local,Free State,Xhariep,Koffiefontein,9829,38628,3.9,92.8,10435,103,123,19908,,,230,538,1907
+FS162,Kopanong,Local,Free State,Xhariep,Trompsburg,15645,49171,3.1,92.6,14495,110,110,147812,19,49107,114,29201,1918
+FS163,Mohokare,Local,Free State,Xhariep,Zastron,8776,34146,3.9,89.7,9688,110,110,40468,6,858,50,13009,1897
+FS164,Naledi (FS),Local,Free State,Xhariep,Dewetsdorp,3424,24314,7.1,93.8,7215,110,110,12701,7,1712,34,1836,1886
+FS181,Masilonyana,Local,Free State,Lejweleputswa,Theunissen,6796,63334,9.3,93.2,16393,67.39,126,,,,,,1879
+FS182,Tokologo,Local,Free State,Lejweleputswa,Boshof,9326,28986,3.1,84.2,7332,48,95,,29,,146,,1897
+FS183,Tswelopele,Local,Free State,Lejweleputswa,Bultfontein,6524,47625,7.3,91.9,11032,44.12,85.14,9130,,,141,4037,1878
+FS184,Matjhabeng,Local,Free State,Lejweleputswa,Welkom,5155,406461,78.8,91.1,112244,62.15,117,435996,195,108743,3450,82540,1868
+FS185,Nala,Local,Free State,Lejweleputswa,Bothaville,4129,81220,19.7,90.3,19626,86,86,58058,36,6541,465,5691,1851
+FS191,Setsoto,Local,Free State,Thabo Mofutsanyana,Ficksburg,5966,112597,18.9,88.6,29860,46,81.05,,,,,,1875
+FS192,Dihlabeng,Local,Free State,Thabo Mofutsanyana,Bethlehem,4880,128704,26.4,84.8,32728,109,110.72,129692,77,60492,1414,27239,1838
+FS193,Nketoana,Local,Free State,Thabo Mofutsanyana,Reitz,5611,60324,10.8,84.7,14669,60,110,5,,,65,5,1847
+FS194,Maluti-a-Phofung,Local,Free State,Thabo Mofutsanyana,Phuthaditjhaba,4338,335784,77.4,89,89286,66.06,119,427176,395,130168,1196,64129,1845
+FS195,Phumelela,Local,Free State,Thabo Mofutsanyana,Vrede,8183,47772,5.8,74.9,9668,54,113.5,,,,,,1807
+FS196,Mantsopa,Local,Free State,Thabo Mofutsanyana,Ladybrand,4291,51056,11.9,91,13808,51,51,27663,,,361,16423,1874
+FS201,Moqhaka,Local,Free State,Fezile Dabi,Kroonstad,7925,160532,20.3,93.3,42623,46.12,114.95,188821,,,89,89141,1830
+FS203,Ngwathe,Local,Free State,Fezile Dabi,Parys,7055,120520,17.1,92,34149,70,106,116284,124,12667,1000,21746,1837
+FS204,Metsimaholo,Local,Free State,Fezile Dabi,Sasolburg,1717,149108,86.8,86.4,39557,55.96,111.11,167199,512,21590,,,1824
+FS205,Mafube,Local,Free State,Fezile Dabi,Frankfort,3971,57876,14.6,84.4,13909,96.5,132,,,,12,,1841
+GT421,Emfuleni,Local,Gauteng,Sedibeng,Vanderbijlpark,966,721663,747.1,92.2,202928,58.07,124.85,1888195,580,1403818,5770,53408,1853
+GT422,Midvaal,Local,Gauteng,Sedibeng,Meyerton,1722,95301,55.3,79.3,23785,77,119,150721,0,0,906,87262,1819
+GT423,Lesedi,Local,Gauteng,Sedibeng,Heidelberg,1484,99520,67.1,89.9,26686,60.95,110.4,164318,75,81430,491,10457,1821
+GT481,Mogale City,Local,Gauteng,West Rand,Krugersdorp,1342,362422,270.1,85.9,100822,66.93,104,608764,0,0,11034,343050,1827
+GT482,Randfontein,Local,Gauteng,West Rand,Randfontein,475,149286,314.3,84.5,36605,53,107,295656,0,0,0,0,1835
+GT483,Westonaria,Local,Gauteng,West Rand,Westonaria,640,111767,174.6,64.3,25771,65.68,127.65,84200,39,22000,321,4300,1836
+GT484,Merafong City,Local,Gauteng,West Rand,Carletonville,1631,197520,121.1,82.8,55204,57.52,113.8,199967,92,48404,876,30561,1846
+JHB,City of Johannesburg,Metropolitan,Gauteng,,Johannesburg,1645,4434827,2695.9,90.8,1303130,73.58,164.68,10276456,0,0,16954,5613456,1815
+KZN211,Vulamehlo,Local,KwaZulu-Natal,Ugu,Scottburgh,960,77403,80.6,36.9,6003,,,,,,,,1400
+KZN212,Umdoni,Local,KwaZulu-Natal,Ugu,Scottburgh,252,78875,313,76.3,17465,,,,,,,,1423
+KZN213,Umzumbe,Local,KwaZulu-Natal,Ugu,Mtwalume,1259,160975,127.9,49,17297,,,,,,,,1415
+KZN214,uMuziwabantu,Local,KwaZulu-Natal,Ugu,Harding,1089,96556,88.7,80.3,17393,113,99,21577,10,13346,120,2942,1506
+KZN215,Ezingoleni,Local,KwaZulu-Natal,Ugu,Izingolweni,648,52540,81.1,79.9,9177,,,,,,,,1415
+KZN216,Hibiscus Coast,Local,KwaZulu-Natal,Ugu,Port Shepstone,839,256135,305.3,85.6,61845,71.06,83.27,0,0,0,0,0,1429
+KZN221,uMshwathi,Local,KwaZulu-Natal,uMgungundlovu,Wartburg,1818,106374,58.5,72.7,20483,,,,,,,,1650
+KZN222,uMngeni,Local,KwaZulu-Natal,uMgungundlovu,Howick,1567,92710,59.2,85.5,26081,,70,35411,0,0,630,2479,1657
+KZN223,Mpofana,Local,KwaZulu-Natal,uMgungundlovu,Mooi River,1820,38103,20.9,71.9,7529,98.35,124.6,6262020,1,216800,95,21120,1689
+KZN224,Impendle,Local,KwaZulu-Natal,uMgungundlovu,Impendle,1528,33105,21.7,83.6,6857,,,,,,,,1818
+KZN225,Msunduzi,Local,KwaZulu-Natal,uMgungundlovu,Pietermaritzburg,634,618536,975.6,91.9,150754,59.32,61.5,1533906,7458,1051203,0,0,1553
+KZN226,Mkhambathini,Local,KwaZulu-Natal,uMgungundlovu,Camperdown,891,63142,70.9,65.2,9785,,,,,,,,1519
+KZN227,Richmond,Local,KwaZulu-Natal,uMgungundlovu,Richmond,1256,65793,52.4,81.5,13412,,,,,,,,1590
+KZN232,Emnambithi/Ladysmith,Local,KwaZulu-Natal,uThukela,Ladysmith,2965,237437,80.1,82.1,47703,52.99,130,263171,79,157621,1294,4919,1728
+KZN233,Indaka,Local,KwaZulu-Natal,uThukela,Wasbank,992,103116,103.9,58.2,11660,,,,,,,,1726
+KZN234,Umtshezi,Local,KwaZulu-Natal,uThukela,Estcourt,1972,83153,42.2,73.2,14113,46.57,85,206441,28,149790,1023,13993,1708
+KZN235,Okhahlamba,Local,KwaZulu-Natal,uThukela,Bergville,3971,132068,33.3,75.4,20818,,,,,,,,1791
+KZN236,Imbabazane,Local,KwaZulu-Natal,uThukela,Ntabamhlophe,1426,113073,79.3,69.2,15496,,,,,,,,1723
+KZN241,Endumeni,Local,KwaZulu-Natal,uMzinyathi,Dundee,1610,64862,40.3,79.1,13339,38.86,133.24,68081,9,2974,627,24549,1738
+KZN242,Nquthu,Local,KwaZulu-Natal,uMzinyathi,Nquthu,1962,165307,84.3,53,16785,40.06,107.7,,,,,,1706
+KZN244,Msinga,Local,KwaZulu-Natal,uMzinyathi,Tugela Ferry,2501,177577,71,25.1,9527,,,,,,,,1688
+KZN245,Umvoti,Local,KwaZulu-Natal,uMzinyathi,Greytown,2516,103093,41,58.3,15948,66.8,117,32072,0,0,0,0,1598
+KZN252,Newcastle,Local,KwaZulu-Natal,Amajuba,Newcastle,1855,363236,195.8,87.2,73480,44.16,81.91,649871,117,487492,2169,53704,1793
+KZN253,eMadlangeni,Local,KwaZulu-Natal,Amajuba,Utrecht,3539,34442,9.7,48.5,3043,47.74,111.54,8258,6,301,73,3803,1711
+KZN254,Dannhauser,Local,KwaZulu-Natal,Amajuba,Dannhauser,1516,102161,67.4,80.7,16505,,,,,,,,1766
+KZN261,eDumbe,Local,KwaZulu-Natal,Zululand,Paulpietersburg,1943,82053,42.2,62.8,10132,63.29,97.71,14615,,0,138,,1670
+KZN262,uPhongolo,Local,KwaZulu-Natal,Zululand,Pongola,3239,127238,39.3,73,21021,52,94,0,0,0,0,0,1618
+KZN263,Abaqulusi,Local,KwaZulu-Natal,Zululand,Vryheid,4185,211060,50.4,72.1,31241,63,97,116000,1,1000,886,37100,1620
+KZN265,Nongoma,Local,KwaZulu-Natal,Zululand,Nongoma,2182,194908,89.3,63.6,21895,,,,,,,,1498
+KZN266,Ulundi,Local,KwaZulu-Natal,Zululand,Ulundi,3250,188317,57.9,73.4,25888,52.49,95.29,44009,0,0,192,3246,1514
+KZN271,uMhlabuyalingana,Local,KwaZulu-Natal,uMkhanyakude,Kwangwanase,3964,156736,39.5,14.2,4832,,,,,,,,1548
+KZN272,Jozini,Local,KwaZulu-Natal,uMkhanyakude,Jozini,3442,186502,54.2,29.1,11361,,,,,,,,1505
+KZN273,The Big Five False Bay,Local,KwaZulu-Natal,uMkhanyakude,Hluhluwe,2121,35258,16.6,42.6,3410,,,,,,,,1521
+KZN274,Hlabisa,Local,KwaZulu-Natal,uMkhanyakude,Hlabisa,1555,71925,46.3,55.4,6993,,,,,,,,1475
+KZN275,Mtubatuba,Local,KwaZulu-Natal,uMkhanyakude,Mtubatuba,1738,175425,100.9,65.1,22758,,,,,,,,1481
+KZN281,Mbonambi,Local,KwaZulu-Natal,uThungulu,KwaMbonambi,1210,122889,101.6,83.7,21439,,,1337,0,0,36,862,1472
+KZN282,uMhlathuze,Local,KwaZulu-Natal,uThungulu,Richards Bay,793,334459,421.8,93.5,80991,38.68,103.49,1133491,62,575070,762,122662,1473
+KZN283,Ntambanana,Local,KwaZulu-Natal,uThungulu,Empangeni,1083,74336,68.6,62,7978,,,1060,0,0,28,684,1499
+KZN284,uMlalazi,Local,KwaZulu-Natal,uThungulu,Eshowe,2214,213601,96.5,58.2,26304,58,104,48980,27,1420,775,31817,1456
+KZN285,Mthonjaneni,Local,KwaZulu-Natal,uThungulu,Melmoth,1086,47818,44,68.9,7201,57,93,12436,0,0,0,0,1507
+KZN286,Nkandla,Local,KwaZulu-Natal,uThungulu,Nkandla,1828,114416,62.6,44.6,10047,47.96,98.42,1671,0,0,44,1077,1638
+KZN291,Mandeni,Local,KwaZulu-Natal,iLembe,Mandeni,545,138078,253.4,82.5,31570,45,101,15117,0,0,10,0,1450
+KZN292,KwaDukuza,Local,KwaZulu-Natal,iLembe,KwaDukuza,735,231187,314.5,90.2,63433,79,65.64,425027,2,151935,1726,116300,1436
+KZN293,Ndwedwe,Local,KwaZulu-Natal,iLembe,Ndwedwe,1093,140820,128.8,37.3,10960,,,,,,,,1460
+KZN294,Maphumulo,Local,KwaZulu-Natal,iLembe,Maphumulo,896,96724,108,33.7,6793,,,,,,,,1549
+KZN431,Ingwe,Local,KwaZulu-Natal,Sisonke,Creighton,1976,100548,50.9,49.9,11536,,,,,,,,1682
+KZN432,KwaSani,Local,KwaZulu-Natal,Sisonke,Himeville,1852,12898,7,75.4,2772,,,,,,,,1710
+KZN433,Greater Kokstad,Local,KwaZulu-Natal,Sisonke,Kokstad,2680,65981,24.6,80.7,15450,80.49,120.44,0,0,0,0,0,1765
+KZN434,Ubuhlebezwe,Local,KwaZulu-Natal,Sisonke,Ixopo,1604,101691,63.4,53.9,12674,,,,,,,,1503
+KZN435,Umzimkhulu,Local,KwaZulu-Natal,Sisonke,Umzimkhulu,2435,180302,74,64.5,27680,,,,,,,,1702
+LIM331,Greater Giyani,Local,Limpopo,Mopani,Giyani,4172,244217,58.5,89,56593,,,,,,,,1561
+LIM332,Greater Letaba,Local,Limpopo,Mopani,Modjadjiskloof,1891,212701,112.5,90.8,52892,60,90,14943,20,8904,74,2894,1562
+LIM333,Greater Tzaneen,Local,Limpopo,Mopani,Tzaneen,3243,390095,120.3,86.2,93943,55.08,80.58,144229,,,912,109964,1588
+LIM334,Ba-Phalaborwa,Local,Limpopo,Mopani,Phalaborwa,7462,150637,20.2,90.8,37348,61.31,127.15,,,,,,1579
+LIM335,Maruleng,Local,Limpopo,Mopani,Hoedspruit,3244,94857,29.2,90.6,22172,,,,,,,,1589
+LIM341,Musina,Local,Limpopo,Vhembe,Musina,7577,68359,9,76.4,15327,80.26,108.34,40550,,,,,1713
+LIM342,Mutale,Local,Limpopo,Vhembe,Mutale,3886,91870,23.6,83.3,19787,,,,,,,,1620
+LIM343,Thulamela,Local,Limpopo,Vhembe,Thohoyandou,5835,618462,106,87.2,136590,,,,,,,,1590
+LIM344,Makhado,Local,Limpopo,Vhembe,Louis Trichardt,8300,516031,62.2,89.4,120618,54.27,89.02,291616,528,20696,2003,78630,1721
+LIM351,Blouberg,Local,Limpopo,Capricorn,Senwabarwana,9248,162629,17.6,88,36240,,127.68,13905,9,78,13,41,1721
+LIM352,Aganang,Local,Limpopo,Capricorn,Koloti,1881,131164,69.7,94.6,32101,,,,,,,,1755
+LIM353,Molemole,Local,Limpopo,Capricorn,Dendron,3347,108321,32.4,95.7,28770,,98.82,,,,,,1729
+LIM354,Polokwane,Local,Limpopo,Capricorn,Polokwane,3766,628999,167,83,147746,44.9,106.8,513006,766,233817,2898,46126,1741
+LIM355,Lepelle-Nkumpi,Local,Limpopo,Capricorn,Chuniespoort,3463,230350,66.5,91.9,54887,,,,,,,,1734
+LIM361,Thabazimbi,Local,Limpopo,Waterberg,Thabazimbi,11190,85234,7.6,76.8,19277,40.08,90.08,,,,,,1809
+LIM362,Lephalale,Local,Limpopo,Waterberg,Lephalale,13784,115767,8.4,85,25403,63.25,96.6,63140,,,54,,1748
+LIM364,Mookgophong,Local,Limpopo,Waterberg,Mookgophong,5689,35640,6.3,85.3,8470,28,89.5,35084,39,11731,84,4909,1761
+LIM365,Modimolle,Local,Limpopo,Waterberg,Modimolle,4678,68513,14.6,83.3,14604,54.3,115.5,,,,,,1777
+LIM366,Bela-Bela,Local,Limpopo,Waterberg,Bela-Bela,3406,66500,19.5,85,15357,70,88.46,53644,,,654,18951,1763
+LIM367,Mogalakwena,Local,Limpopo,Waterberg,Mokopane,6166,307682,49.9,91.8,72918,50,135,162983,860,83765,,,1768
+LIM471,Ephraim Mogale,Local,Limpopo,Sekhukhune,Marble Hall,2011,123648,61.5,89.6,28941,57.74,79.94,,,,,,1837
+LIM472,Elias Motsoaledi,Local,Limpopo,Sekhukhune,Groblersdal,3713,249363,67.2,91.1,54918,60,82,11966,600,11966,,,1786
+LIM473,Makhuduthamaga,Local,Limpopo,Sekhukhune,Jane Furse,2097,274358,130.8,90.4,58971,,,14252,715,14252,,,1844
+LIM474,Fetakgomo,Local,Limpopo,Sekhukhune,Apel,1105,93795,84.9,91.5,20918,,,4992,250,4992,,,1754
+LIM475,Greater Tubatse,Local,Limpopo,Sekhukhune,Burgersfort,4602,335676,72.9,75.7,63038,,,14645,735,14645,,,1758
+MAN,Mangaung,Metropolitan,Free State,,Bloemfontein,6284,747431,118.9,91.4,211989,73,113,1446830,522,611068,3560,114705,1901
+MP301,Albert Luthuli,Local,Mpumalanga,Gert Sibande,Carolina,5559,186010,33.5,87.5,41745,56.18,95.62,,,,,,1650
+MP302,Msukaligwa,Local,Mpumalanga,Gert Sibande,Ermelo,6016,149377,24.8,74.7,30580,51.35,77,104812,92,10781,932,20227,1744
+MP303,Mkhondo,Local,Mpumalanga,Gert Sibande,Piet Retief,4882,171982,35.2,66.8,25018,45,85,,,,,,1682
+MP304,Pixley ka Seme,Local,Mpumalanga,Gert Sibande,Volksrust,5227,83235,15.9,85.2,16918,,104,31447,,,348,,1779
+MP305,Lekwa,Local,Mpumalanga,Gert Sibande,Standerton,4585,115662,25.2,88.6,27555,42,123,195383,12,82689,905,24424,1812
+MP306,Dipaleseng,Local,Mpumalanga,Gert Sibande,Balfour,2617,42390,16.2,83.1,10512,53,127.68,24866,8,197,52,791,1825
+MP307,Govan Mbeki,Local,Mpumalanga,Gert Sibande,Secunda,2955,294538,99.7,90.3,75779,60.51,99.93,565762,227,323570,987,131303,1827
+MP311,Victor Khanye,Local,Mpumalanga,Nkangala,Delmas,1568,75452,48.1,84.9,17447,60.25,97.7,62098,16,26360,235,9010,1812
+MP312,Emalahleni (MP),Local,Mpumalanga,Nkangala,Witbank,2678,395466,147.7,78.5,24893,76.33,65.45,591484,710,215720,1315,57632,1813
+MP313,Steve Tshwete,Local,Mpumalanga,Nkangala,Middelburg,3976,229831,57.8,90.8,59049,62.83,113.53,307156,,,1013,154806,1803
+MP314,Emakhazeni,Local,Mpumalanga,Nkangala,Belfast,4736,47216,10,83.6,11474,60.6,125.09,58165,52,11600,520,18560,1799
+MP315,Thembisile Hani,Local,Mpumalanga,Nkangala,eMpumalanga,2384,310458,130.2,92.3,69830,,,,,,,,1829
+MP316,Dr JS Moroka,Local,Mpumalanga,Nkangala,Siyabuswa,1416,249705,176.3,96.7,60094,,,,,,,,1824
+MP321,Thaba Chweu,Local,Mpumalanga,Ehlanzeni,Lydenburg,5719,98387,17.2,84.3,28137,69.95,69,105075,67,22698,453,35866,1608
+MP322,Mbombela,Local,Mpumalanga,Ehlanzeni,Nelspruit,5394,588794,109.2,90.2,145973,52,95,448600,,,3801,297585,1566
+MP323,Umjindi,Local,Mpumalanga,Ehlanzeni,Barberton,1745,69577,39.9,78.5,15912,47.04,92.5,63637,32,27363,267,4454,1605
+MP324,Nkomazi,Local,Mpumalanga,Ehlanzeni,Malalane,4787,390610,81.6,83.3,79545,59.8,95.45,37102,,,,,1560
+MP325,Bushbuckridge,Local,Mpumalanga,Ehlanzeni,Bushbuckridge,10250,541248,52.8,93.9,126064,,,,,,,,1567
+NC061,Richtersveld,Local,Northern Cape,Namakwa,Port Nolloth,9608,11982,1.2,96,3402,65.19,96.33,,2,,144,,1957
+NC062,Nama Khoi,Local,Northern Cape,Namakwa,Springbok,17989,47041,2.6,93.7,12371,44.81,94.11,,,,,,1971
+NC064,Kamiesberg,Local,Northern Cape,Namakwa,Garies,14210,10187,0.7,87.4,2751,102,99,,,,,,2038
+NC065,Hantam,Local,Northern Cape,Namakwa,Calvinia,36128,21578,0.6,76.9,4891,72.17,114.94,11500,,,,,2001
+NC066,Karoo Hoogland,Local,Northern Cape,Namakwa,Williston,32274,12588,0.4,64.9,2502,93,108,9141,,,67,475,1981
+NC067,Khâi-Ma,Local,Northern Cape,Namakwa,Pofadder,16628,12465,0.7,89.6,3404,,111,3586,,,51,1601,1953
+NC071,Ubuntu,Local,Northern Cape,Pixley ka Seme,Victoria West,20389,18601,0.9,84.8,4355,56.18,96.08,13341,,,135,2582,1942
+NC072,Umsobomvu,Local,Northern Cape,Pixley ka Seme,Colesberg,6819,28376,4.2,86.7,6803,60,130,14964,,,238,8189,1923
+NC073,Emthanjeni,Local,Northern Cape,Pixley ka Seme,De Aar,13472,42356,3.1,92.6,9690,69.66,126.57,53367,46,12760,377,6530,1948
+NC074,Kareeberg,Local,Northern Cape,Pixley ka Seme,Carnarvon,17702,11673,0.7,73.6,2376,124,124,128044,42,14402,760,37653,1971
+NC075,Renosterberg,Local,Northern Cape,Pixley ka Seme,Petrusville,5527,10978,2,88.1,2645,154,154,,,,,,1922
+NC076,Thembelihle,Local,Northern Cape,Pixley ka Seme,Hopetown,8023,15701,2,75.2,3113,,118,,,,,,1907
+NC077,Siyathemba,Local,Northern Cape,Pixley ka Seme,Prieska,14725,21591,1.5,86.2,5033,33.65,90.63,,,,,,1966
+NC078,Siyancuma,Local,Northern Cape,Pixley ka Seme,Douglas,16753,37076,2.2,82.2,7885,59,127,,,,,,1971
+NC081,Mier,Local,Northern Cape,Siyanda,Mier,22468,7003,0.3,74.3,1325,,,,,,,,1968
+NC082,Kai !Garib,Local,Northern Cape,Siyanda,Kakamas,26358,65869,2.5,87.4,14614,62.41,109.35,,,,,,1982
+NC083,Khara Hais,Local,Northern Cape,Siyanda,Upington,21780,93494,4.3,91.1,21191,48.8,101.4,133648,42,14905,810,40467,1948
+NC084,!Kheis,Local,Northern Cape,Siyanda,Groblershoop,11107,16637,1.5,64,2658,,,,,,,,1958
+NC085,Tsantsabane,Local,Northern Cape,Siyanda,Postmasburg,18333,35093,1.9,83.5,8220,123.34,116.58,11550,49,5700,75,3300,1949
+NC086,Kgatelopele,Local,Northern Cape,Siyanda,Daniëlskuil,2478,18687,7.5,91.7,4932,81.23,125.41,11531,10,1677,58,1677,1948
+NC091,Sol Plaatjie,Local,Northern Cape,Frances Baard,Kimberley,3145,248041,78.9,84.9,51198,73.12,137.8,399954,314,123610,5636,55813,1902
+NC092,Dikgatlong,Local,Northern Cape,Frances Baard,Barkly West,7315,46841,6.4,75.9,9104,133,133,,,,,,1920
+NC093,Magareng,Local,Northern Cape,Frances Baard,Warrenton,1542,24204,15.7,85,5200,67,122.9,10443,,,141,3254,1896
+NC094,Phokwane,Local,Northern Cape,Frances Baard,Hartswater,834,63000,75.5,82.3,14444,81.55,117.42,,,,,,1909
+NC451,Joe Morolong,Local,Northern Cape,John Taolo Gaetsewe,Mothibistad,20172,89530,4.4,81.8,19396,,,,,,,,1915
+NC452,Ga-Segonyana,Local,Northern Cape,John Taolo Gaetsewe,Kuruman,4492,93652,20.8,91.2,24470,48.8,92,,,,,,1948
+NC453,Gamagara,Local,Northern Cape,John Taolo Gaetsewe,Kathu,2619,41617,15.9,87.9,9498,81,110,17538,20,350,121,8570,1952
+NMA,Nelson Mandela Bay,Metropolitan,Eastern Cape,,Port Elizabeth,1959,1152115,588.1,90.5,293442,63.45,147.26,3067998,308,1546192,10326,463811,1582
+NW371,Moretele,Local,North West,Bojanala Platinum,Makapanstad,1379,186947,135.6,92.2,48034,,,,,,,,1807
+NW372,Madibeng,Local,North West,Bojanala Platinum,Brits,3839,477381,124.4,81,130238,45.46,65.9,348257,1910,172830,146,47219,1813
+NW373,Rustenburg,Local,North West,Bojanala Platinum,Rustenburg,3423,549575,160.6,83,165230,52.66,111.03,2235626,,,3569,1985950,1820
+NW374,Kgetlengrivier,Local,North West,Bojanala Platinum,Koster,3973,51049,12.8,78,11466,82,132.13,,,,,,1823
+NW375,Moses Kotane,Local,North West,Bojanala Platinum,Mogwase,5719,242554,42.4,89.9,67651,,,,,,,,1802
+NW381,Ratlou,Local,North West,Ngaka Modiri Molema,Setlagole,4884,107339,22,83.7,22514,,,,,,,,1881
+NW382,Tswaing,Local,North West,Ngaka Modiri Molema,Delareyville,5966,124218,20.8,73.7,22603,62.6,110,,,,,,1906
+NW383,Mafikeng,Local,North West,Ngaka Modiri Molema,Mafikeng,3698,291527,78.8,84.5,71280,,,,,,,,1896
+NW384,Ditsobotla,Local,North West,Ngaka Modiri Molema,Lichtenburg,6465,168902,26.1,74,32964,70.22,127.6,105206,139,47092,613,11598,1834
+NW385,Ramotshere Moiloa,Local,North West,Ngaka Modiri Molema,Zeerust,7193,150713,21,81.9,33416,63.63,127,,,,,,1815
+NW392,Naledi (NW),Local,North West,Dr Ruth Segomotsi Mompati,Vryburg,6941,66781,9.6,76.7,14265,79,113,67203,,,591,23029,1890
+NW393,Mamusa,Local,North West,Dr Ruth Segomotsi Mompati,Schweizer-Reneke,3615,60355,16.7,80.8,11816,58.84,118.8,,,,,,1909
+NW394,Greater Taung,Local,North West,Dr Ruth Segomotsi Mompati,Taung,5635,177642,31.5,88.5,43101,54.56,82,3617,,,,,1938
+NW396,Lekwa-Teemane,Local,North West,Dr Ruth Segomotsi Mompati,Christiana,3681,53248,14.5,86.1,12876,,118.27,,,,,,1903
+NW397,Kagisano-Molopo,Local,North West,Dr Ruth Segomotsi Mompati,Ganyesa,23827,105789,4.4,73.8,21096,,,,,,,,1910
+NW401,Ventersdorp,Local,North West,Dr Kenneth Kaunda,Ventersdorp,3764,56702,15.1,76.1,11094,85.22,119,33400,,,452,10080,1868
+NW402,Tlokwe,Local,North West,Dr Kenneth Kaunda,Potchefstroom,2674,162762,60.9,90.5,47583,106.02,120,374411,65,74233,234,36655,1853
+NW403,City of Matlosana,Local,North West,Dr Kenneth Kaunda,Klerksdorp,3561,398676,112,90.3,108763,68.55,121,453085,216,1904,2954,25916,1867
+NW404,Maquassi Hills,Local,North West,Dr Kenneth Kaunda,Wolmaransstad,4643,77794,16.8,82.8,16990,59.73,94.08,30920,,,,,1894
+TSH,City of Tshwane,Metropolitan,Gauteng,,Pretoria,6345,2921488,460.4,88.6,807291,44.25,99.5,8471650,1038,3864935,8080,1253145,1816
+WC011,Matzikama,Local,Western Cape,West Coast,Vredendal,12981,67147,5.2,88.7,16709,164.92,116,57896,549,1500,,,2018
+WC012,Cederberg,Local,Western Cape,West Coast,Clanwilliam,8007,49768,6.2,88.8,11996,51,111,46535,,,323,19665,1845
+WC013,Bergrivier,Local,Western Cape,West Coast,Piketberg,4407,61897,14,94.9,15449,68,98,59210,,,,,1824
+WC014,Saldanha Bay,Local,Western Cape,West Coast,Vredenburg,2015,99193,49.2,97,27945,46,85,187286,925,94107,,,1766
+WC015,Swartland,Local,Western Cape,West Coast,Malmesbury,3707,113762,30.7,97.8,28661,38.63,101.17,141169,90,62664,939,15856,1777
+WC022,Witzenberg,Local,Western Cape,Cape Winelands,Ceres,10753,115946,10.8,93.4,25586,55.2,91,130143,61,68948,408,12784,1859
+WC023,Drakenstein,Local,Western Cape,Cape Winelands,Paarl,1538,251262,163.4,95,56742,62.5,91.73,653235,237,274757,3434,44845,1597
+WC024,Stellenbosch,Local,Western Cape,Cape Winelands,Stellenbosch,831,155733,187.4,92.9,40327,54,125,348801,40,124399,1622,87716,1716
+WC025,Breede Valley,Local,Western Cape,Cape Winelands,Worcester,3833,166825,43.5,88.3,37524,71.5,99.12,264105,,,1405,153245,1921
+WC026,Langeberg,Local,Western Cape,Cape Winelands,Ashton,4518,97724,21.6,94.2,23658,,,74167,,,170,1025,1853
+WC031,Theewaterskloof,Local,Western Cape,Overberg,Caledon,3232,108790,33.7,89,25699,61.78,102.62,51442,35,14953,371,10387,1615
+WC032,Overstrand,Local,Western Cape,Overberg,Hermanus,1708,80432,47.1,90.4,25303,53.85,,164464,,,1193,52410,1613
+WC033,Cape Agulhas,Local,Western Cape,Overberg,Bredasdorp,3467,33038,9.5,96.7,9820,40.56,79.86,52500,28,12000,377,8700,1610
+WC034,Swellendam,Local,Western Cape,Overberg,Swellendam,3835,35916,9.4,94,9527,58.6,116,86965,35,,345,,1829
+WC041,Kannaland,Local,Western Cape,Eden,Ladismith,4758,24767,5.2,89.7,5569,110.85,106.82,22732,19,8639,104,2857,1748
+WC042,Hessequa,Local,Western Cape,Eden,Riversdale,5733,52642,9.2,94.9,15058,51.7,78.25,,,,,,1683
+WC043,Mossel Bay,Local,Western Cape,Eden,Mossel Bay,2011,89430,44.5,93.8,26275,50,70,230479,145,83966,1150,22926,1681
+WC044,George,Local,Western Cape,Eden,George,5191,193672,37.3,91,48713,49,59.96,206944,1556,154641,,,1812
+WC045,Oudtshoorn,Local,Western Cape,Eden,Oudtshoorn,3537,95933,27.1,85.3,18672,51,94,148266,1,9560,428,45283,1824
+WC047,Bitou,Local,Western Cape,Eden,Plettenberg Bay,992,49162,49.6,94,15647,39.5,85,81159,,,463,39640,1638
+WC048,Knysna,Local,Western Cape,Eden,Knysna,1109,68659,61.9,88.8,19439,45.08,113,163174,,,1194,65918,1575
+WC051,Laingsburg,Local,Western Cape,Central Karoo,Laingsburg,8784,8289,0.9,79.4,1909,95.94,95.94,6612,,,33,2273,1913
+WC052,Prince Albert,Local,Western Cape,Central Karoo,Prince Albert,8153,13136,1.6,86.4,3093,45,67.17,81159,,,463,39640,1871
+WC053,Beaufort West,Local,Western Cape,Central Karoo,Beaufort West,21917,49586,2.3,92,12044,,,31712,39,8035,317,323,1981
