@@ -1,0 +1,281 @@
+                                                                     
+                                                                     
+                                                                     
+                                             
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Visualising South African Municipalities Data</title>
+<style>
+
+    div.tooltip {   
+      position: absolute;           
+      text-align: center;           
+      width: 320px;                  
+      height: 150px;                 
+      padding: 2px;             
+      font: 16px sans-serif;        
+      background: lightsteelblue;   
+      border: 0px;      
+      border-radius: 8px;           
+      pointer-events: none;         
+    }
+
+    p { text-align: center }
+    h1 { text-align: center }
+    h2 { text-align: center }
+    svg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+</style>
+<body">   
+    <h1>Visualising South African Municipalities Data</h1>
+    <h2>
+        <button id="Area">Area</button>
+        <button id="Population">Population</button>
+        <button id="PopulationDensity">Population Density</button>
+        <button id="ElectricityAccess">Electricity Access</button>
+        <button id="ElectricityPrices">Commercial Electricity Prices</button>
+        <button id="PV_Yield">PV Yield Stellenbosch</button>
+    </h2>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v0.min.js"></script>
+<script>
+
+// Button Variables
+    var AreaButton = document.getElementById("Area");
+    var PopulationButton = document.getElementById("Population");
+    var PopulationDensityButton = document.getElementById("PopulationDensity");
+    var ElectrAccessButton = document.getElementById("ElectricityAccess");      
+    var ElectrPricesButton = document.getElementById("ElectricityPrices");      
+    var PV_YieldButton = document.getElementById("PV_Yield");      
+
+
+var width = 1000,
+    height = 750,
+    scale = 2500;
+
+var projection = d3.geo.mercator()
+    .scale(scale)
+    .translate([-scale/4.3, -scale/2.6]);
+
+var path = d3.geo.path()
+    .projection(projection);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+var div = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);   
+    
+var color = d3.scale.quantize()
+                .range(["rgb(253, 208, 162)", "rgb(253, 174, 107)","rgb(253, 141, 60)", "rgb(241, 105, 19)","rgb(217, 72, 1)","rgb(140, 45, 4)"]);
+
+
+                    
+//Load csv and define color domain
+//https://dl.dropboxusercontent.com/u/75011568/SouthAfricaMunicipalities_Data.csv
+d3.csv("SouthAfricaMunicipalities_Data.csv", function(error, SAdata) {
+    //https://dl.dropboxusercontent.com/u/75011568/SA_Local_Municipalities.json
+    d3.json("SA_Local_Municipalities.json", function(error, json) {
+                
+            //Merge the data and GeoJSON
+            //Loop through once for each data value
+            for (var i = 0; i < SAdata.length; i++) {
+
+                //Grab municipality name
+                var MunicipalityName = SAdata[i].Name;
+
+                //Grab data value, and convert from string to float
+                var dataArea = parseFloat(SAdata[i].Area);
+                var dataPopulation = parseFloat(SAdata[i].Population);
+                var dataPopulationDensity = parseFloat(SAdata[i].PopulationDensity);
+                var dataElectricityAccess_Percentage = parseFloat(SAdata[i].ElectricityAccess_Percentage);
+                var dataEnergyCharge_Commercial = parseFloat(SAdata[i].EnergyCharge_Commercial);
+                var dataPV_Yield = parseFloat(SAdata[i].AveragePV_YieldStellenbosch);
+
+                
+                //Find the corresponding municipality inside the GeoJSON
+                for (var j = 0; j < json.features.length; j++) {
+
+                    var jsonMunicipality = json.features[j].properties.MUNICNAME;
+                    
+                    //document.write([MunicipalityName, jsonMunicipality]);
+                    //document.write('   ');
+                    
+                    if (MunicipalityName == jsonMunicipality) {
+
+                        //Copy the data value into the JSON
+                        json.features[j].properties.value = [
+                            dataArea, 
+                            dataPopulation, 
+                            dataPopulationDensity, 
+                            dataElectricityAccess_Percentage, 
+                            dataEnergyCharge_Commercial, 
+                            dataPV_Yield
+                        ];
+
+                        //Stop looking through the JSON
+                        break;
+
+                        }
+                    }
+                }    
+                
+                //document.write(json.features[100].properties.value[5]); document.write('                            ');
+                    
+            
+        
+            //Define color domains
+            var ColorDomain_Area = [d3.min(json.features, function(d) { return +d.properties.value[0]; }),d3.max(json.features, function(d) { return +d.properties.value[0]; })]; 
+            var ColorDomain_Population = [d3.min(json.features, function(d) { return +d.properties.value[1]; }),d3.max(json.features, function(d) { return +d.properties.value[1]; })];
+            var ColorDomain_PopulationDensity = [d3.min(json.features, function(d) { return +d.properties.value[2]; }),d3.max(json.features, function(d) { return +d.properties.value[2]; })];
+            var ColorDomain_ElectricityAccess_Percentage = [d3.min(json.features, function(d) { return +d.properties.value[3]; }),d3.max(json.features, function(d) { return +d.properties.value[3]; })];
+            var ColorDomain_EnergyCharge_Commercial = [d3.min(json.features, function(d) { return +d.properties.value[4]; }),d3.max(json.features, function(d) { return +d.properties.value[4]; })];
+            var ColorDomain_PV_Yield = [d3.min(json.features, function(d) { return +d.properties.value[5]; }),d3.max(json.features, function(d) { return +d.properties.value[5]; })];
+            
+            color.domain(ColorDomain_Area);
+
+            // Draw paths and give initial colour   
+            var paths = svg.selectAll("path")
+               .data(json.features)
+               .enter()
+               .append("path")
+               .attr("d", path)
+               .attr("stroke","white")
+               /*.style("fill","steelblue");*/
+               .style("fill", function(d) {
+                    //Get data value
+                    var value = d.properties.value[0];
+
+                    if (value) {
+                            //If value exists…
+                            return color(value);
+                    } else {
+                            //If value is undefined…
+                            return "#ccc";
+                    }
+                });
+
+            // Mouseover
+            paths.on("mouseover", function(d) {      
+                div.transition()        
+                    .duration(100)      
+                    .style("opacity", .9);      
+                div.html("<big><big><b>" +d.properties.MUNICNAME+"</b></big></big>" + "<br/>"  + "Area = "+ d.properties.value[0] + " km\u00B2 <br/> Population = " + d.properties.value[1] + " people <br/> Population Density = " + d.properties.value[2] + " people per km\u00B2 <br/> Electricity Access = " + d.properties.value[3] + " % <br/> Commercial Tariff = " + d.properties.value[4] + " cR/kWh <br/> PV Yield = " + d.properties.value[5] + " h") 
+                    .style("left", (d3.event.pageX) + "px")     
+                    .style("top", (d3.event.pageY - 16) + "px");    
+                })                  
+            .on("mouseout", function(d) {       
+                div.transition()        
+                    .duration(100)      
+                    .style("opacity", 0);   
+            });    
+
+            // Define function of buttons
+            d3.select(AreaButton).on('click', function(d) {
+                    color.domain(ColorDomain_Area);                         
+                    svg.selectAll("path")
+                        .style("fill", function(d) {
+                            //Get data value
+                            var value = d.properties.value[0];  
+
+                            if (value) {
+                                    //If value exists…
+                                    return color(value);
+                            } else {
+                                    //If value is undefined…
+                                    return "#ccc";
+                            }
+                        });
+            });
+            d3.select(PopulationButton).on('click', function(d) {
+                    color.domain(ColorDomain_Population);                         
+                    svg.selectAll("path")
+                        .style("fill", function(d) {
+                            //Get data value
+                            var value = d.properties.value[1];
+
+                            if (value) {
+                                    //If value exists…
+                                    return color(value);
+                            } else {
+                                    //If value is undefined…
+                                    return "#ccc";
+                            }
+                        });
+            });
+            d3.select(PopulationDensityButton).on('click', function(d) {
+                    color.domain(ColorDomain_PopulationDensity);
+                    svg.selectAll("path")
+                        .style("fill", function(d) {
+                            //Get data value
+                            var value = d.properties.value[2];
+
+                            if (value) {
+                                    //If value exists…
+                                    return color(value);
+                            } else {
+                                    //If value is undefined…
+                                    return "#ccc";
+                            }
+                        });
+            });
+            d3.select(ElectrAccessButton).on('click', function(d) {
+                    color.domain(ColorDomain_ElectricityAccess_Percentage);
+                    svg.selectAll("path")
+                        .style("fill", function(d) {
+                            //Get data value
+                            var value = d.properties.value[3];
+
+                            if (value) {
+                                    //If value exists…
+                                    return color(value);
+                            } else {
+                                    //If value is undefined…
+                                    return "#ccc";
+                            }
+                        });
+            });
+            d3.select(ElectrPricesButton).on('click', function(d) {
+                    color.domain(ColorDomain_EnergyCharge_Commercial);
+                    svg.selectAll("path")
+                        .style("fill", function(d) {
+                            //Get data value
+                            var value = d.properties.value[4];
+
+                            if (value) {
+                                    //If value exists…
+                                    return color(value);
+                            } else {
+                                    //If value is undefined…
+                                    return "#ccc";
+                            }
+                        });
+            });
+            d3.select(PV_YieldButton).on('click', function(d) {
+                    color.domain(ColorDomain_PV_Yield);
+                    svg.selectAll("path")
+                        .style("fill", function(d) {
+                            //Get data value
+                            var value = d.properties.value[5];
+
+                            if (value) {
+                                    //If value exists…
+                                    return color(value);
+                            } else {
+                                    //If value is undefined…
+                                    return "#ccc";
+                            }
+                        });
+            });
+            
+                
+    });
+});
+
+</script>
